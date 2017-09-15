@@ -15,8 +15,6 @@
 @property (retain,nonatomic) WKWebView *myWeb;
 @property (nonatomic, strong) UIProgressView *progressView;
 
-// 分析 url 变化 事件；
--(void)webView:(UIWebView *)webView LoadWithRequest:(NSURLRequest *)request nowViewController:(HYBaseViewController*)baseViewController;
 
 // 加载本地html
 -(void)loadLocalHtml:(NSString*)PathForResource   catalogPath:(NSString*)catalogPath;
